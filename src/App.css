@@ -1,0 +1,35 @@
+.red-id-cell {
+  color: rgb(222, 42, 18); /* Couleur rouge */
+}
+*
+
+.circle-container {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.rotate-circle {
+  width: 100%;
+  height: 100%;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* styles.css */
+.edit-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
